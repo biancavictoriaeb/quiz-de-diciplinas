@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Disciplinas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="painel">
+
+        <h1>🎯 Quiz de Disciplinas</h1>
+
+        <div class="topo">
+            <span id="progresso">Pergunta 1 de 5</span>
+            <span id="pontuacao">Pontos: 0</span>
+        </div>
+
+        <div class="barra">
+            <div id="preenchimento"></div>
+        </div>
+
+        <h2 id="pergunta"></h2>
+
+        <div id="opcoes" class="opcoes"></div>
+
+        <p id="feedback"></p>
+
+        <button id="proximo" disabled>
+            Próxima pergunta
+        </button>
+
+        <section id="final" hidden>
+
+            <h2 id="resultadoFinal"></h2>
+
+            <button id="reiniciar">
+                Jogar novamente
+            </button>
+
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
